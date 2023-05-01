@@ -6,9 +6,9 @@ public class TestMath {
     @Test
     public void testMath(){
         double a = 3.14;
-        //返回最小整数
-        double ceil = Math.ceil(a);
         //返回最大整数
+        double ceil = Math.ceil(a);
+        //返回最小整数
         double floor = Math.floor(a);
         //返回绝对值
         double abs = Math.abs(-a);
